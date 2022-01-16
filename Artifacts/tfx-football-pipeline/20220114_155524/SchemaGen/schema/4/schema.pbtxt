@@ -1,0 +1,798 @@
+feature {
+  name: "Ability"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Acceleration"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Aerial Reach"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Age"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Aggression"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Agility"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Anticipation"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Balance"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Bravery"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Caps / Goals"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Club"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Command of Area"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Communication"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Composure"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Concentration"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Contract end"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Corners"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Crossing"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Decisions"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Determination"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Dribbling"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Eccentricity"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Finishing"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "First Touch"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Flair"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Foot"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  domain: "Foot"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Free Kick Taking"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Handling"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Heading"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Jumping Reach"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Kicking"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Leadership"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Length"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  domain: "Length"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Long Shots"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Long Throws"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Marking"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Name"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Nation"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Natural Fitness"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Off the Ball"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "One on Ones"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Pace"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Passing"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Penalty Taking"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Position"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Positioning"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Potential"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Punching (Tendency)"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Rating"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Reflexes"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Roles"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Rushing Out (Tendency)"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Sell value"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Stamina"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Strength"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Tackling"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Teamwork"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Technique"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Throwing"
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Unique ID"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Vision"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Wages"
+  type: BYTES
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Weight"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: BYTES
+  domain: "Weight"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+feature {
+  name: "Work Rate"
+  value_count {
+    min: 1
+    max: 1
+  }
+  type: INT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+}
+string_domain {
+  name: "Foot"
+  value: "Both"
+  value: "Left"
+  value: "Right"
+}
+string_domain {
+  name: "Length"
+  value: "150 CM"
+  value: "152 CM"
+  value: "153 CM"
+  value: "154 CM"
+  value: "155 CM"
+  value: "156 CM"
+  value: "157 CM"
+  value: "158 CM"
+  value: "159 CM"
+  value: "160 CM"
+  value: "161 CM"
+  value: "162 CM"
+  value: "163 CM"
+  value: "164 CM"
+  value: "165 CM"
+  value: "166 CM"
+  value: "167 CM"
+  value: "168 CM"
+  value: "169 CM"
+  value: "170 CM"
+  value: "171 CM"
+  value: "172 CM"
+  value: "173 CM"
+  value: "174 CM"
+  value: "175 CM"
+  value: "176 CM"
+  value: "177 CM"
+  value: "178 CM"
+  value: "179 CM"
+  value: "180 CM"
+  value: "181 CM"
+  value: "182 CM"
+  value: "183 CM"
+  value: "184 CM"
+  value: "185 CM"
+  value: "186 CM"
+  value: "187 CM"
+  value: "188 CM"
+  value: "189 CM"
+  value: "190 CM"
+  value: "191 CM"
+  value: "192 CM"
+  value: "193 CM"
+  value: "194 CM"
+  value: "195 CM"
+  value: "196 CM"
+  value: "197 CM"
+  value: "198 CM"
+  value: "199 CM"
+  value: "200 CM"
+  value: "201 CM"
+  value: "202 CM"
+  value: "203 CM"
+  value: "204 CM"
+  value: "205 CM"
+  value: "206 CM"
+  value: "210 CM"
+  value: "207 CM"
+  value: "208 CM"
+}
+string_domain {
+  name: "Weight"
+  value: "0 KG"
+  value: "100 KG"
+  value: "101 KG"
+  value: "102 KG"
+  value: "103 KG"
+  value: "104 KG"
+  value: "105 KG"
+  value: "107 KG"
+  value: "108 KG"
+  value: "110 KG"
+  value: "55 KG"
+  value: "56 KG"
+  value: "57 KG"
+  value: "58 KG"
+  value: "59 KG"
+  value: "60 KG"
+  value: "61 KG"
+  value: "62 KG"
+  value: "63 KG"
+  value: "64 KG"
+  value: "65 KG"
+  value: "66 KG"
+  value: "67 KG"
+  value: "68 KG"
+  value: "69 KG"
+  value: "70 KG"
+  value: "71 KG"
+  value: "72 KG"
+  value: "73 KG"
+  value: "74 KG"
+  value: "75 KG"
+  value: "76 KG"
+  value: "77 KG"
+  value: "78 KG"
+  value: "79 KG"
+  value: "80 KG"
+  value: "81 KG"
+  value: "82 KG"
+  value: "83 KG"
+  value: "84 KG"
+  value: "85 KG"
+  value: "86 KG"
+  value: "87 KG"
+  value: "88 KG"
+  value: "89 KG"
+  value: "90 KG"
+  value: "91 KG"
+  value: "92 KG"
+  value: "93 KG"
+  value: "94 KG"
+  value: "95 KG"
+  value: "96 KG"
+  value: "97 KG"
+  value: "98 KG"
+  value: "99 KG"
+  value: "109 KG"
+}
