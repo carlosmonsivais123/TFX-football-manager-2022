@@ -24,7 +24,18 @@ class Data_Schema:
         return dtype_schema
 
 ######################### Cleaning Data #########################
-class Clean_Data:    
+class Clean_Data:
+    def keep_columns(self, df):
+        columns_keeping = ['Age', 'Length', 'Weight', 'Ability', 'Potential', 'Sell value', 'Wages', 'Corners', 'Crossing', 'Dribbling', 'Finishing',
+                           'First Touch', 'Free Kick Taking', 'Heading', 'Long Shots', 'Long Throws', 'Marking', 'Passing', 'Penalty Taking', 'Tackling',
+                           'Technique', 'Aggression', 'Anticipation', 'Bravery', 'Composure', 'Concentration', 'Decisions', 'Determination', 'Flair', 'Leadership',
+                           'Off the Ball', 'Positioning', 'Teamwork', 'Vision', 'Work Rate', 'Acceleration', 'Agility', 'Balance', 'Jumping Reach',
+                           'Natural Fitness', 'Pace', 'Stamina', 'Strength', 'Aerial Reach', 'Command of Area', 'Communication', 'Eccentricity', 'Handling',
+                           'Kicking', 'One on Ones', 'Punching (Tendency)', 'Reflexes', 'Rushing Out (Tendency)', 'Throwing', 'Caps', 'Goals',
+                           'Name', 'Foot', 'Unique ID', 'Position', 'Club', 'Nation', 'Ability', 'Potential', 'Contract end']
+        df = df[columns_keeping]
+        return df
+
     def remove_null_name_rows(self, df):
         df = df.dropna(subset=['Name', 'Unique ID'])
         return df
@@ -77,15 +88,12 @@ class Clean_Data:
         return print('Data file was succesfully sent to {}/{}'.format(str_location, file_name))
 
 
-
-
 ######################### DataFrame to CSV #########################
 class Output_CSV:
     def df_to_csv(self, df, str_location, file_name):
         df.to_csv('{}/{}'.format(str_location, file_name), index = False)
 
         return print('Data file was succesfully sent to {}/{}'.format(str_location, file_name))
-
 
 
 
@@ -99,7 +107,8 @@ data_dictionary = data_schema.dtype_dictionary()
 
 ########################### Cleaning Data ###########################
 clean_data_class = Clean_Data()
-clean_data = clean_data_class.remove_null_name_rows(df = data)
+clean_data = clean_data_class.keep_columns(df = data)
+clean_data = clean_data_class.remove_null_name_rows(df = clean_data)
 clean_data = clean_data_class.clean_rows(df = clean_data)
 clean_data = clean_data_class.change_column_schema(df = clean_data, schema_dictionary = data_dictionary)
 clean_data = clean_data_class.drop_duplicate_players(df = clean_data)
