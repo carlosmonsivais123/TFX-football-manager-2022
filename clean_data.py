@@ -31,7 +31,7 @@ class Clean_Data:
                            'Technique', 'Aggression', 'Anticipation', 'Bravery', 'Composure', 'Concentration', 'Decisions', 'Determination', 'Flair', 'Leadership',
                            'Off the Ball', 'Positioning', 'Teamwork', 'Vision', 'Work Rate', 'Acceleration', 'Agility', 'Balance', 'Jumping Reach',
                            'Natural Fitness', 'Pace', 'Stamina', 'Strength', 'Aerial Reach', 'Command of Area', 'Communication', 'Eccentricity', 'Handling',
-                           'Kicking', 'One on Ones', 'Punching (Tendency)', 'Reflexes', 'Rushing Out (Tendency)', 'Throwing', 'Caps', 'Goals',
+                           'Kicking', 'One on Ones', 'Punching (Tendency)', 'Reflexes', 'Rushing Out (Tendency)', 'Throwing', 'Caps / Goals',
                            'Name', 'Foot', 'Unique ID', 'Position', 'Club', 'Nation', 'Ability', 'Potential', 'Contract end']
         df = df[columns_keeping]
         return df
