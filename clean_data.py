@@ -107,4 +107,4 @@ clean_data = clean_data_class.reset_index_df(df = clean_data)
 
 ########################### Clean DF to CSV ###########################
 output_csv = Output_CSV()
-output_csv.df_to_csv(df = clean_data, str_location = 'Data', file_name = 'clean_football_manager_22.csv')
+output_csv.df_to_csv(df = clean_data, str_location = 'Clean_Data', file_name = 'clean_football_manager_22.csv')
