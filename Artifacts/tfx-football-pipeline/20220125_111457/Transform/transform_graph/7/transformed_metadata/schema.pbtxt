@@ -1,0 +1,45 @@
+feature {
+  name: "Ability_transformed"
+  type: FLOAT
+}
+feature {
+  name: "Club_transformed"
+  type: BYTES
+}
+feature {
+  name: "Contract end_transformed"
+  type: BYTES
+}
+feature {
+  name: "Foot_transformed"
+  type: BYTES
+}
+feature {
+  name: "Long Throws_transformed"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+  }
+  shape {
+  }
+}
+feature {
+  name: "Name_transformed"
+  type: BYTES
+}
+feature {
+  name: "Nation_transformed"
+  type: BYTES
+}
+feature {
+  name: "Position_transformed"
+  type: BYTES
+}
+feature {
+  name: "Potential_transformed"
+  type: FLOAT
+}
+feature {
+  name: "Unique ID_transformed"
+  type: INT
+}

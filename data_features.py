@@ -5,6 +5,9 @@ NUMERIC_FEATURE_KEYS = [ 'Age', 'Length', 'Weight', 'Ability', 'Potential', 'Sel
                         'Natural Fitness', 'Pace', 'Stamina', 'Strength', 'Aerial Reach', 'Command of Area', 'Communication', 'Eccentricity', 'Handling',
                         'Kicking', 'One on Ones', 'Punching (Tendency)', 'Reflexes', 'Rushing Out (Tendency)', 'Throwing', 'Caps', 'Goals']
 
+
+# NUMERIC_FEATURE_KEYS = [ 'Long Throws']
+
 CATEGORICAL_FEATURE_KEYS = ['Name', 'Foot', 'Unique ID', 'Position', 'Club', 'Nation', 'Ability', 'Potential', 'Contract end']
 
 def transformed_feature_name(feature):
